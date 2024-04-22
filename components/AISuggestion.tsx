@@ -35,7 +35,7 @@ function AISuggestion({ term }: { term: string }) {
 
                         AI Assistant Suggests:{" "}
                     </p>
-                    <p className="italic text-xl">"{data.message}"</p>
+                    <p className="italic text-xl">{data.message}</p>
                 </div>
             </>
         )
