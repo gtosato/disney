@@ -2,6 +2,7 @@ import { getSingleMovie } from "@/lib/getMovies";
 import { Movie } from "@/typings";
 import Image from "next/image"
 import getImagePath from "@/lib/getImagePath"
+import { Button } from "@/components/ui/button";
 
 type Props = {
     params: {
@@ -12,9 +13,10 @@ type Props = {
 async function DetailsPage({ params: { id }}: Props) {
 
     const movie: Movie = await getSingleMovie(id);
-    
+
     const d = new Date(movie.release_date);
     const year = d.getFullYear();
+
 
  return (
     <div className="relative w-screen h-screen overflow-hidden">
@@ -35,6 +37,7 @@ async function DetailsPage({ params: { id }}: Props) {
                 <p className="pt-5">{year}</p>
                 <p className="pt-5">{movie.runtime} minutes</p>
                 <p className="pt-5 max-w-xl">{movie.overview}</p>
+                <Button className="mt-10 text-base">Back</Button>
             </div>
         </div>    
     </div>
