@@ -4,6 +4,12 @@ This application mocks the functionality and appearance of the Disney+ website. 
 
 <br />
 
+<div style='text-align: center;'>
+  <img src='./demo480p.gif' alt='demo' />
+</div>
+
+<br />
+
 It is built using the following technologies:
 
 -    Next.js
