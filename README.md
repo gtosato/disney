@@ -70,7 +70,7 @@ $ npm run dev
 
 -    Adding custom user experience through authentication to allow user to select favourites, add movie ratings, etc.
 
-## Roadblocks
+## Road Blocks
 
 -    Received 500 Internal Server error when requesting from OpenAI. Relatively easy fix as OpenAI credit balance needed to be topped up.
 
