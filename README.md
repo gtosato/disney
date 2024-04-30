@@ -9,7 +9,8 @@ This application mocks the functionality and appearance of the Disney+ website. 
 </div>
 
 <br />
-Live deployment
+Live deployment: 
+<br />
 https://wonderful-jalebi-0240e4.netlify.app/
 
 ## Requirements / Purpose
