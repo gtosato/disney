@@ -24,7 +24,7 @@ It is built using the following technologies:
 -    TMDB (The Movie Database) website API to retrieve data
 -    Zod validation
 
-This project was built to develop a better understanding of utilising Microsoft Azure hosted functions to integrate AI functionality into an application. It uses Next.js to simplify routing and uses server side components to cache previous search results.
+This project was built to develop a better understanding of utilising Microsoft Azure hosted functions to integrate AI functionality into an application. It uses Next.js to simplify routing, and uses server side components to cache previous search results.
 
 ## Build Steps
 
